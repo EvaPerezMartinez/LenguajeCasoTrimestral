@@ -8,13 +8,17 @@ header > img{
     height:inherit;
 }
 nav{
+    background-color: rgb(255, 177, 88);
+    align-items: center;
+    width:inherit;
     display: flex;
     padding: auto;
     /*border: solid 5px  rgb(251, 148, 63);*/
     
 }
 img[class=nav-clic]{
-    width: 60px;
+    
+    width: 120px;
     height: 30px;
  
 }
