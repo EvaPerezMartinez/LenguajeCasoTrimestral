@@ -1,0 +1,24 @@
+header{
+    display:flex;
+    background-color: rgb(255, 184, 84);
+    
+}
+header > img{
+    width: 45px;
+    height:inherit;
+}
+nav{
+    display: flex;
+    padding: auto;
+    /*border: solid 5px  rgb(251, 148, 63);*/
+    
+}
+img[class=nav-clic]{
+    width: 60px;
+    height: 30px;
+ 
+}
+a:link , a:visited , a:active{
+    text-decoration:solid none;
+    text-emphasis-color: blue;
+}
