@@ -15,7 +15,7 @@ body {
     padding: 10px 20px;
     background-color: #ffe4d9; /* Melocotón claro */
   }
-  
+
   img {
     max-width: 100%;
     height: auto;
@@ -206,7 +206,7 @@ footer {
     color: #333;
   }
   .contact-form {
-    width: 100%; /* Ocupa todo el ancho disponible */
+    width: 95%; /* Ocupa todo el ancho disponible */
     max-width: 95%; /* Establece un ancho máximo para evitar que sea demasiado grande */
     padding: 20px;
     margin: 0 auto; /* Centrado automático */

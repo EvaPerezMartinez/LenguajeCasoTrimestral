@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FVE Shop</title>
   <link rel="stylesheet" href="style.css">
@@ -33,12 +34,12 @@
   <!-- Main con productos -->
   <main>
     <section>
-      <h2>Horarios</h2>
       <!--TODO
           1.Completar la tabla y ajustar las clases de los elementos para poder darle estilos.
           2.Ajustar la combinacion de celdas.
       -->
       <table>
+        <h2>Horarios</h2>
         <thead>
           <tr>
             
@@ -48,7 +49,7 @@
         <tbody>
           <tr>
             <th>Lunes</th>
-            <td colspan="5">Abierto de 10:00 - 21:30</td>
+            <td colspan="5" rowspan="5"> Abierto de 10:00 - 21:30</td>
             <td></td>
             <td></td>
             <td></td>
@@ -56,19 +57,10 @@
             <td></td>
             <td></td>
           </tr>
+
           <tr>
             <th>Martes</th>
-            <td colspan="5">Abierto de 10:00 - 21:30</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th colspan="2">Miercoles</th>
-            <td colspan="5">Abierto de 10:00 - 21:30</td>
             <td></td>
             <td></td>
             <td></td>
@@ -76,8 +68,45 @@
             <td></td>
             <td></td>
           </tr>
+          
           <tr>
+            <th>Miercoles</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
 
+          <tr>
+            <th>Jueves</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <th>Viernes</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <th>Sabado</th>
+            <td>Abierto 10:00 - 14:30</td>
+
+          </tr>
+
+          <tr>
+            <th>Domingo</th>
+            <td>Cerrado</td>
           </tr>
         </tbody>
       </table>
