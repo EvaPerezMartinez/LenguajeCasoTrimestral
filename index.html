@@ -1,82 +1,140 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Francisco, Eva, Vera">
-    <meta name="Keywords" content="ropa, tienda">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>FVE Shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FVE Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="img/logoFVE.png" alt="logoFVE">
-        <nav>
-            <div class="box">
-                <a href="index.html"><img class="nav-clic" src="img/inicio_nav.png" alt="Inicio"></a> 
-            </div>
-            <div class="box">
-                <a href=""><img src="img/categorias_nav.png" class="nav-clic" alt="Categorias"></a>
-            </div>
-            <div class="box">
-                <a href="horarios.html"> <img src="img/horario_nav.png" class="nav-clic" alt=""></a>
-            </div>
-            <div class="box">
-                <a href="quienes_somos.html"> <img src="img/quienesSomos_nav.png" class="nav-clic" alt="Nosotros"></a>
-            </div>
-            <div class="box">
-                <a href="contactanos.html"><img src="img/contacto_nav.png" class="nav-clic" alt=""></a>
-            </div>
-            
-        </nav>
-    </header>
-    <main>
-        <section>
-            <img src="" alt="">
-            <p></p><!--Descripcion-->
-            <p></p><!--Precio-->
+  <!-- Header con logo y menú  -->
+  <header>
+    <div class="logo">
+      <img src="img/logoFVE.png" alt="Logo de la tienda">
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#">Categorías</a>
+          <ul class="submenu">
+            <li><a href="#">Hombres</a></li>
+            <li><a href="#">Mujeres</a></li>
+            <li><a href="#">Niños</a></li>
+          </ul>
+        </li>
+        <li><a href="quienes_somos.html">Sobre Nosotros</a></li>
+        <li><a href="horarios.html">Horarios</a></li>
+        <li><a href="contactanos.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        </section>
-        <section>
-            <img src="" alt="">
-            <p></p><!--Descripcion-->
-            <p></p><!--Precio-->
+  <!-- Main con productos -->
+  <main>
+    <section class="product-grid">
 
-        </section>
-        <section>
-            <img src="" alt="">
-            <p></p><!--Descripcion-->
-            <p></p><!--Precio-->
+      <article class="product-card">
+        <img src="producto1.jpg" alt="Producto 1">
+        <h3>Producto 1</h3>
+        <p>19.99€</p>
+        <button>Comprar</button>
+      </article>
 
-        </section>
-        <section>
-            <img src="" alt="">
-            <p>1</p><!--Descripcion-->
-            <p></p><!--Precio-->
+      <article class="product-card">
+        <img src="producto2.jpg" alt="Producto 2">
+        <h3>Producto 2</h3>
+        <p>29.99€</p>
+        <button>Comprar</button>
+      </article>
 
-        </section>
-        <section>
-            <img src="" alt="">
-            <p>2</p><!--Descripcion-->
-            <p></p><!--Precio-->
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
 
-        </section>
-        <section>
-            <img src="" alt="">
-            <p>3</p><!--Descripcion-->
-            <p></p><!--Precio-->
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
 
-        </section>
-        
-    </main>
-    <footer>
-        <p>Hola</p>
-        <p>Copyright 2024</p><!--Falta el simbolo de Copyright-->
-        <address>C/Hola</address><!--Nos inventaremos la dirección-->
-        <a href="tel:+">666 666 666</a><br>
-        <a href="mailto:">FVEshop@fvecompany.com</a><br>
-        <a href="Aviso Legal">Aviso Legal</a><br>
-        <iframe src="" frameborder="0"></iframe> <!--Iframe Google Maps-->
-    </footer>
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
+
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
+
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
+
+      <article class="product-card">
+        <img src="producto3.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>39.99€</p>
+        <button>Comprar</button>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <!-- Aviso Legal -->
+      <div class="footer-section">
+        <h4>Aviso Legal</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget metus a eros fermentum scelerisque.</p>
+        <a href="aviso-legal.html">Leer más</a>
+      </div>
+  
+      <!-- Contacto -->
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <p>Teléfono: <a href="tel:+123456789">+123 456 789</a></p>
+        <p>Dirección: Calle Ejemplo, 123, Ciudad, País</p>
+        <p>Email: <a href="mailto:FVE@fvecomp.com">FVE&#64;fvecomp.com </a></p>
+      </div>
+  
+      <!-- Mapa -->
+      <div class="footer-section">
+        <h4>Encuéntranos</h4>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508617!2d144.95373531565333!3d-37.81627974202126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fa6d131f650!2sFlinders+St%2C+Melbourne+VIC%2C+Australia!5e0!3m2!1sen!2sus!4v1614123331825!5m2!1sen!2sus" 
+          width="100%" 
+          height="200" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2024 Tienda de Ropa FVE. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
 </body>
 </html>
