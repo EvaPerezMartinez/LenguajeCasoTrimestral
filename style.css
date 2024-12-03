@@ -227,6 +227,7 @@ footer {
   .contact-form textarea {
     width: calc(100% - 20px); /*  Deja un espacio interno simétrico */
     padding: 10px;
+    resize: none;
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
